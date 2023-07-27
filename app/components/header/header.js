@@ -3,25 +3,25 @@ import Link from 'next/link';
 function Header() {
   return (
     <>
-      <div className='flex justify-between content-center p-5 text-ace-white'>
-        <Link className='uppercase ' href='/'>
+      <header className='flex justify-between content-center p-5 text-ace-white'>
+        <Link className='uppercase font-bold ' href='/'>
           AceBlog
         </Link>
         <nav className=''>
           <ul className='flex color '>
             <li className='mr-5'>
               <Link className='hover:text-slate-50' href='posts'>
-                Posts
+                Все посты
               </Link>
             </li>
             <li>
               <Link className='hover:text-slate-50' href='contact'>
-                Contact
+                Заказать пост
               </Link>
             </li>
           </ul>
         </nav>
-      </div>
+      </header>
     </>
   );
 }
