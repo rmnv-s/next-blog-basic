@@ -10,12 +10,12 @@ function Header() {
         <nav className=''>
           <ul className='flex color '>
             <li className='mr-5'>
-              <Link className='hover:text-slate-50' href='posts'>
+              <Link className='hover:text-slate-50' href='/posts'>
                 Все посты
               </Link>
             </li>
             <li>
-              <Link className='hover:text-slate-50' href='contact'>
+              <Link className='hover:text-slate-50' href='/contact'>
                 Заказать пост
               </Link>
             </li>
