@@ -1,5 +1,6 @@
 import GridPosts from '../../posts/grid-post';
 import postsData from '../../utils/postsData';
+const topPosts = postsData.filter((post) => post.top === true);
 function FeaturedPosts() {
   return (
     <>
@@ -8,7 +9,7 @@ function FeaturedPosts() {
           Лучшие посты
         </h2>
         <span className='text-center block'>по мнению Ace Ventura</span>
-        <GridPosts posts={postsData} />
+        <GridPosts posts={topPosts} />
       </section>
     </>
   );
