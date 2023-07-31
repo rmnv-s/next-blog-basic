@@ -16,7 +16,7 @@ function Header() {
             </li>
             <li>
               <Link className='hover:text-slate-50' href='/contact'>
-                Заказать пост
+                Предложить пост
               </Link>
             </li>
           </ul>
